@@ -1,1 +1,7 @@
-
+- hosts: blocks  
+  tasks:  
+  - name: Ansible copy file force  
+    copy:  
+      src: https://github.com/Trimukesh/github-actions.git
+      dest: D:\Trimu\folder1\template   
+      force: yes
