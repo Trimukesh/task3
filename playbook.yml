@@ -2,6 +2,6 @@
   tasks:  
   - name: Ansible copy file force  
     add:  
-      src: https://github.com/Trimukesh/task3.git
+      src: https://github.com/Trimukesh/task3.git/playbook.yml
       dest: D:\Trimu\folder1
       force: yes
