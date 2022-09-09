@@ -1,4 +1,4 @@
-- hosts: blocks  
+- hosts: windows-hosted
   tasks:  
   - name: Ansible copy file force  
     copy:  
