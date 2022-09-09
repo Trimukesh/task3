@@ -1,4 +1,4 @@
-- hosts: windows-hosted
+- hosts: self-hosted
   tasks:  
   - name: Ansible copy file force  
     add:  
