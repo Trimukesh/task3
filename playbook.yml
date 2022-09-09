@@ -1,7 +1,6 @@
-- hosts: windows-hosted
+- hosts: windows-latest
   tasks:  
   - name: Ansible copy file force  
-    add:  
-      src: https://github.com/Trimukesh/trimu.git/sample
+    add:
+      src: https://github.com/Trimukesh/trimu.git
       dest: D:\Trimu\folder1
-      force: yes
