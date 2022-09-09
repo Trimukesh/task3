@@ -2,6 +2,6 @@
   tasks:  
   - name: Ansible copy file force  
     copy:  
-      src: https://github.com/Trimukesh/github-actions.git
+      src: https://github.com/Trimukesh/github-actions/blob/d0bcd992db6542e41f88e50c4c14ef56e5ee3730/demo
       dest: D:\Trimu\folder1\template   
       force: yes
